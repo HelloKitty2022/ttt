@@ -1,0 +1,56 @@
+{
+  "name": "learun-datav",
+  "version": "2.0.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "npm run lib && vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name avueData --dest public/lib --filename index --formats umd-min ./src/page/view.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "codemirror": "^5.59.0",
+    "core-js": "^3.4.4",
+    "css-loader": "^3.4.1",
+    "dayjs": "^1.9.8",
+    "element-ui": "^2.13.0",
+    "js-md5": "^0.7.3",
+    "learun-ui-vue": "^0.5.18",
+    "mockjs": "^1.1.0",
+    "vue": "^2.6.11",
+    "vue-router": "3.1.0",
+    "vue-sketch-ruler": "^1.0.3",
+    "vuedraggable": "^2.23.2",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

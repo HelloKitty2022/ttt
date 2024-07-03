@@ -1,0 +1,79 @@
+.l-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.l-login-box{
+    position: absolute;
+    height: 458px;
+    width: 990px;
+    top: 50%;
+    left: 50%;
+    margin-top: -229px;
+    margin-left: -495px;
+    background-color: #fff;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.l-logo{
+    position: absolute;
+    top:32px;
+    left:32px;
+}
+.l-left-img{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+}
+
+.l-title{
+    position: absolute;
+    top:36px;
+    right:266px;
+    font-family: PingFangSC-Medium;
+    font-size: 32px;
+    color: #1B1B1B;
+}
+.l-login-form{
+    position: absolute;
+    height: 100%;
+    width: 430px;
+    top:0;
+    right: 0;
+    padding:121px 36px 0 36px;
+    box-sizing: border-box;
+
+    .el-input--small .el-input__inner {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 32px;
+    }
+
+    .el-button--primary {
+        width: 100%;
+    }   
+    
+    .el-form-item {
+        margin-bottom: 24px;
+    }
+}
+
+.l-version{
+    position: absolute;
+    left: 0;
+    bottom: 16px;
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 12px;
+    font-family: PingFangSC-Regular;
+    color: #A9A9A9;
+
+}
